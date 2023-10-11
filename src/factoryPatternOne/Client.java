@@ -7,13 +7,13 @@ public class Client {
         Produit produit = null ;
         ProduitFactory produitFactory = new ProduitFactory();
         
-        produit = produitFactory.getProduitA(produitFactory.TYPE_PRODUITA1);
+        produit = produitFactory.getProduitA(ProduitFactory.TYPE_PRODUITA1);
         produit.methodeA();
         
-        produit = produitFactory.getProduitA(produitFactory.TYPE_PRODUITA2);
+        produit = produitFactory.getProduitA(ProduitFactory.TYPE_PRODUITA2);
         produit.methodeA();
         
-        produit = produitFactory.getProduitA(produitFactory.TYPE_PRODUITA3);
+        produit = produitFactory.getProduitA(ProduitFactory.TYPE_PRODUITA3);
         produit.methodeA();
 	}
 
