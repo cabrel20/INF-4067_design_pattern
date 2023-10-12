@@ -1,9 +1,9 @@
-package BuilderPatternOne;
+package BuilderPatternTwo;
 
 public class Directeur {
 
 	public Pizza construire(MonteurPizza monteurPizza) {
-		monteurPizza.creerNouvellePizza();
+
 		monteurPizza.monterPate();
 		monteurPizza.monterSauce();
 		monteurPizza.monterGarniture();

@@ -1,12 +1,8 @@
-package BuilderPatternOne;
+package BuilderPatternTwo;
 
 public class MonteurPizzaPiquante extends MonteurPizza {
 	
-	@Override
-	public void creerNouvellePizza() {
-		// TODO Auto-generated method stub
-		super.creerNouvellePizza();
-	}
+	private Pizza pizza = new Pizza();
 	
 	 public void monterPate() {
 		 pizza.setPate("feuilleté");
@@ -19,4 +15,9 @@ public class MonteurPizzaPiquante extends MonteurPizza {
 	 public void monterGarniture() {
 		 pizza.setGarniture("peperoni+salami");
 	 }
+	 
+	 
+		public Pizza getPizza() {
+			return pizza;
+		}
 }
