@@ -5,14 +5,14 @@ Le dossier contenant le code de chaque design patterns est le dossier src/
 # I. Structure du dossier src/
 
 src/
-abstractFactoryOne/
-abstractFactoryTwo/
-BuilderPatternOne/
-BuilderPatternTwo/
-factoryPatternOne/
-factoryPatternTwo/
-singletonPatternOne/
-singletonPatternTwo/
+  abstractFactoryOne/
+  abstractFactoryTwo/
+  BuilderPatternOne/
+  BuilderPatternTwo/
+  factoryPatternOne/
+  factoryPatternTwo/
+  singletonPatternOne/
+  singletonPatternTwo/
 
 # II. Design patterns implementés
 
