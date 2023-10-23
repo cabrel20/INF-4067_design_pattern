@@ -18,13 +18,13 @@ singletonPatternTwo/
 
 # II.1. Abstract factory pattern
 
-Ce pattern a pour but est de créer des objets regroupés en familles sans avoir à
+Ce pattern a pour but de créer des objets regroupés en familles sans avoir à
 connaître leurs classes concrètes.
 Le pattern est implémenter dans deux dossiers dont le dossier abstractFactoryOne/ qui implémente le pattern avec deux familles produits (comme dans le cours) et le dossier abstractFactoryTwo/ qui l'implémente cette fois ci avec trois familles de produits.
 
 # II.2. Builder pattern
 
-Ce pattern a pour but creér des objets complexes à partir des objets sources.
+Ce pattern a pour but de creér des objets complexes à partir des objets sources.
 Le pattern est implémenté dans deux dossiers dont le dossier BuilderPatternOne/ qui l'implémente avec 2 monteurs(MonteurPizzaReine et MonteurPizzaPiquante comme dans le cours) et le dossier BuilderPatternTwo/ qui l'implemente cette fois avec trois monteurs(MonteurPizzaLocal + les 2 monteurs précedents).
 
 # II.3. Factory pattern
