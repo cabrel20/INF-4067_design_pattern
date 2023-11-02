@@ -4,5 +4,5 @@
 /**
  * 
  */
-module desing_pattern {
+module pattern_structuration {
 }
