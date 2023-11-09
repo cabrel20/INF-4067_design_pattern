@@ -1,0 +1,11 @@
+package bridgePatternTwo;
+
+public abstract class Forme {
+
+	Couleur couleur;
+	public Forme(Couleur couleur) {
+		this.couleur = couleur;
+	}
+	
+	public abstract void colorier();
+}
