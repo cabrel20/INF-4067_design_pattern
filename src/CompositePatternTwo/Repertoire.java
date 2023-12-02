@@ -1,4 +1,4 @@
-package CompositePatternTwo;
+package compositePatternTwo;
 
 public interface Repertoire {
 	
